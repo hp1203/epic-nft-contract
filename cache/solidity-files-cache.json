@@ -74,8 +74,8 @@
       ]
     },
     "/Users/himanshupurohit/MyWork/mern/epic-nft-contract/contracts/MyEpicNFT.sol": {
-      "lastModificationDate": 1645196396623,
-      "contentHash": "2f06043d0d931f8a82258c2850357e97",
+      "lastModificationDate": 1645275585846,
+      "contentHash": "1e2f96685bc5bf558e746ba7ae482136",
       "sourceName": "contracts/MyEpicNFT.sol",
       "solcConfig": {
         "version": "0.8.1",
@@ -101,6 +101,7 @@
         }
       },
       "imports": [
+        "@openzeppelin/contracts/utils/Strings.sol",
         "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol",
         "@openzeppelin/contracts/utils/Counters.sol",
         "hardhat/console.sol"
